@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
     <Image src={src} width={250} height={50} className="absolute left-20 lg:left-10 top-5 z-50" alt="ses protection" />
-      <div className="h-[80vh] relative">
+      <div className="h-full relative">
         <div className="flex flex-col items-center justify-center h-full py-14 lg:py-0 lg:h-[80vh] gap-5 lg:gap-10 px-10 lg:px-0 z-10 relative">
           <div className="opacity-30 bg-black absolute h-full w-full z-0" />
           <h1 className="text-[18px] lg:text-[42px] lg:w-[80%] mx-auto text-center font-bold z-10 pt-10 lg:pt-0">
